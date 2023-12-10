@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg,darkred,greenyellow) fixed;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+label {
+    font-size: 100px;
+    color: blue;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    font-size: 50px;
+    color: blue;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+    border-radius: 10px;
+    width: 400px;
+    background-color: transparent;
+    line-height: 2;
+    transition: 1s;
+}
+
+input:hover {
+    background-color: black;
+    color: white;
+}
